@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "bbcReithSans";
+  src: url("./font/BBCReithSans_W_Rg.woff2") format("woff2"); /* Super Modern Browsers */
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  font-family: "bbcReithSans";
+  background: black;
+}
+
+li.navMain {
+  list-style: none;
+  float: left;
+  color: white;
+  background: #0d111d;
+  padding: 1.8% 1% 1.7% 1%;
+}
+
+li.navMain.logo {
+  padding: 1% 25% 1% 10%;
+}
+
+li.navMain:hover {
+  color: #e94896;
+  background: #020112;
+}
+
+m {
+  padding-right: 21%;
+}
+
+
+li.channel {
+    list-style: none;
+    /* float: left; */
+    /* color: white; */
+    /* background: #0d111d; */
+    position: relative;
+    /* height: auto; */
+}
+
+li.channel>img {
+    width: 7%;
+    float: left;
+}
+
+li.navMain.lastNav {
+    padding-right: 21%;
+}
+
+li.channel>img:hover {
+    /* background: aquamarine; */
+}
+
+img.bkgOne:hover {
+    background: red;
+}
+
+img.bkgTwo:hover {
+    background: rgb(36, 87, 97);
+}
+
+img.bkgThree:hover {
+    background: #e94896;
+}
+
+img.bkgFour.topFour {
+    /* position: absolute; */
+    left: 21%;
+    width: 1p;
+    width: 7%;
+    display: none;
+}
+
+img.bkgFour.bottomFour:hover {
+    display: none;
+}
+
+img.bkgFour.topFour:hover {
+    display: inline-block;
+}
+
+img.bkgFour.bottomFour {
+    display: inline;
+}
